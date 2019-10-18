@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5117B5A62359504600DBDEDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5A52359504600DBDEDE /* AppDelegate.swift */; };
+		5117B5A82359504600DBDEDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5A72359504600DBDEDE /* SceneDelegate.swift */; };
+		5117B5AA2359504600DBDEDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5A92359504600DBDEDE /* ViewController.swift */; };
+		5117B5AD2359504600DBDEDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5117B5AB2359504600DBDEDE /* Main.storyboard */; };
+		5117B5AF2359504700DBDEDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5117B5AE2359504700DBDEDE /* Assets.xcassets */; };
+		5117B5B22359504700DBDEDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5117B5B02359504700DBDEDE /* LaunchScreen.storyboard */; };
+		5117B5BD2359504700DBDEDE /* LQUIUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5BC2359504700DBDEDE /* LQUIUtilsTests.swift */; };
+		5117B5C82359504700DBDEDE /* LQUIUtilsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5C72359504700DBDEDE /* LQUIUtilsUITests.swift */; };
+		5117B5F3235950EE00DBDEDE /* LQUIUtils+WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5D6235950EE00DBDEDE /* LQUIUtils+WKWebView.swift */; };
+		5117B5F4235950EE00DBDEDE /* LQUIUtils+UIPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5D7235950EE00DBDEDE /* LQUIUtils+UIPanGestureRecognizer.swift */; };
+		5117B5F5235950EE00DBDEDE /* LQUIUtils+UITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5D8235950EE00DBDEDE /* LQUIUtils+UITabBar.swift */; };
+		5117B5F6235950EE00DBDEDE /* LQUIUtilsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5D9235950EE00DBDEDE /* LQUIUtilsUIView.swift */; };
+		5117B5F7235950EE00DBDEDE /* LQUIUtils+UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5DA235950EE00DBDEDE /* LQUIUtils+UIWebView.swift */; };
+		5117B5F8235950EE00DBDEDE /* LQUIUtils+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5DB235950EE00DBDEDE /* LQUIUtils+UIStackView.swift */; };
+		5117B5F9235950EE00DBDEDE /* LQUIUtils+UISwipeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5DC235950EE00DBDEDE /* LQUIUtils+UISwipeGestureRecognizer.swift */; };
+		5117B5FA235950EE00DBDEDE /* LQUIUtils+UICollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5DD235950EE00DBDEDE /* LQUIUtils+UICollectionViewLayout.swift */; };
+		5117B5FB235950EE00DBDEDE /* LQUIUtils+UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5DE235950EE00DBDEDE /* LQUIUtils+UITextView.swift */; };
+		5117B5FC235950EE00DBDEDE /* LQUIUtils+UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5DF235950EE00DBDEDE /* LQUIUtils+UIBarItem.swift */; };
+		5117B5FD235950EE00DBDEDE /* LQUIUtils+UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E0235950EE00DBDEDE /* LQUIUtils+UISearchBar.swift */; };
+		5117B5FE235950EE00DBDEDE /* LQUIUtils+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E1235950EE00DBDEDE /* LQUIUtils+UIScrollView.swift */; };
+		5117B5FF235950EE00DBDEDE /* LQUIUtils+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E2235950EE00DBDEDE /* LQUIUtils+UILabel.swift */; };
+		5117B600235950EE00DBDEDE /* LQUIUtils+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E3235950EE00DBDEDE /* LQUIUtils+UITableView.swift */; };
+		5117B601235950EE00DBDEDE /* LQUIUtils+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E4235950EE00DBDEDE /* LQUIUtils+UITextField.swift */; };
+		5117B602235950EE00DBDEDE /* LQUIUtils+UIRotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E5235950EE00DBDEDE /* LQUIUtils+UIRotationGestureRecognizer.swift */; };
+		5117B603235950EE00DBDEDE /* LQUIUtils+UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E6235950EE00DBDEDE /* LQUIUtils+UISlider.swift */; };
+		5117B604235950EE00DBDEDE /* LQUIUtils+UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E7235950EE00DBDEDE /* LQUIUtils+UIGestureRecognizer.swift */; };
+		5117B605235950EE00DBDEDE /* LQUIUtils+UITapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E8235950EE00DBDEDE /* LQUIUtils+UITapGestureRecognizer.swift */; };
+		5117B606235950EE00DBDEDE /* LQUIUtils+WKWebViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5E9235950EE00DBDEDE /* LQUIUtils+WKWebViewConfiguration.swift */; };
+		5117B607235950EE00DBDEDE /* LQUIUtilsUIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5EA235950EE00DBDEDE /* LQUIUtilsUIProgressView.swift */; };
+		5117B608235950EE00DBDEDE /* LQUIUtils+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5EB235950EE00DBDEDE /* LQUIUtils+UIControl.swift */; };
+		5117B609235950EE00DBDEDE /* LQUIUtils+UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5EC235950EE00DBDEDE /* LQUIUtils+UISwitch.swift */; };
+		5117B60A235950EE00DBDEDE /* LQUIUtils+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5ED235950EE00DBDEDE /* LQUIUtils+UICollectionView.swift */; };
+		5117B60B235950EE00DBDEDE /* LQUIUtils+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5EE235950EE00DBDEDE /* LQUIUtils+UIButton.swift */; };
+		5117B60C235950EE00DBDEDE /* LQUIUtils+UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5EF235950EE00DBDEDE /* LQUIUtils+UITabBarItem.swift */; };
+		5117B60D235950EE00DBDEDE /* LQUIUtilsUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5F0235950EE00DBDEDE /* LQUIUtilsUIImageView.swift */; };
+		5117B60E235950EE00DBDEDE /* LQUIUtils+UILongPressGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5F1235950EE00DBDEDE /* LQUIUtils+UILongPressGestureRecognizer.swift */; };
+		5117B60F235950EE00DBDEDE /* LQUIUtils+UIPinchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B5F2235950EE00DBDEDE /* LQUIUtils+UIPinchGestureRecognizer.swift */; };
+		5117B612235950F700DBDEDE /* LQUIUtilsNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117B611235950F700DBDEDE /* LQUIUtilsNameSpace.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5117B5B92359504700DBDEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5117B59A2359504600DBDEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5117B5A12359504600DBDEDE;
+			remoteInfo = LQUIUtils;
+		};
+		5117B5C42359504700DBDEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5117B59A2359504600DBDEDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5117B5A12359504600DBDEDE;
+			remoteInfo = LQUIUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5117B5A22359504600DBDEDE /* LQUIUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQUIUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5117B5A52359504600DBDEDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5117B5A72359504600DBDEDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5117B5A92359504600DBDEDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5117B5AC2359504600DBDEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5117B5AE2359504700DBDEDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5117B5B12359504700DBDEDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5117B5B32359504700DBDEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5117B5B82359504700DBDEDE /* LQUIUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQUIUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5117B5BC2359504700DBDEDE /* LQUIUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQUIUtilsTests.swift; sourceTree = "<group>"; };
+		5117B5BE2359504700DBDEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5117B5C32359504700DBDEDE /* LQUIUtilsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LQUIUtilsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5117B5C72359504700DBDEDE /* LQUIUtilsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQUIUtilsUITests.swift; sourceTree = "<group>"; };
+		5117B5C92359504700DBDEDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5117B5D6235950EE00DBDEDE /* LQUIUtils+WKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+WKWebView.swift"; sourceTree = "<group>"; };
+		5117B5D7235950EE00DBDEDE /* LQUIUtils+UIPanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIPanGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B5D8235950EE00DBDEDE /* LQUIUtils+UITabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UITabBar.swift"; sourceTree = "<group>"; };
+		5117B5D9235950EE00DBDEDE /* LQUIUtilsUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQUIUtilsUIView.swift; sourceTree = "<group>"; };
+		5117B5DA235950EE00DBDEDE /* LQUIUtils+UIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIWebView.swift"; sourceTree = "<group>"; };
+		5117B5DB235950EE00DBDEDE /* LQUIUtils+UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIStackView.swift"; sourceTree = "<group>"; };
+		5117B5DC235950EE00DBDEDE /* LQUIUtils+UISwipeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UISwipeGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B5DD235950EE00DBDEDE /* LQUIUtils+UICollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UICollectionViewLayout.swift"; sourceTree = "<group>"; };
+		5117B5DE235950EE00DBDEDE /* LQUIUtils+UITextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UITextView.swift"; sourceTree = "<group>"; };
+		5117B5DF235950EE00DBDEDE /* LQUIUtils+UIBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIBarItem.swift"; sourceTree = "<group>"; };
+		5117B5E0235950EE00DBDEDE /* LQUIUtils+UISearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UISearchBar.swift"; sourceTree = "<group>"; };
+		5117B5E1235950EE00DBDEDE /* LQUIUtils+UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIScrollView.swift"; sourceTree = "<group>"; };
+		5117B5E2235950EE00DBDEDE /* LQUIUtils+UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UILabel.swift"; sourceTree = "<group>"; };
+		5117B5E3235950EE00DBDEDE /* LQUIUtils+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UITableView.swift"; sourceTree = "<group>"; };
+		5117B5E4235950EE00DBDEDE /* LQUIUtils+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UITextField.swift"; sourceTree = "<group>"; };
+		5117B5E5235950EE00DBDEDE /* LQUIUtils+UIRotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIRotationGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B5E6235950EE00DBDEDE /* LQUIUtils+UISlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UISlider.swift"; sourceTree = "<group>"; };
+		5117B5E7235950EE00DBDEDE /* LQUIUtils+UIGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B5E8235950EE00DBDEDE /* LQUIUtils+UITapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UITapGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B5E9235950EE00DBDEDE /* LQUIUtils+WKWebViewConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+WKWebViewConfiguration.swift"; sourceTree = "<group>"; };
+		5117B5EA235950EE00DBDEDE /* LQUIUtilsUIProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQUIUtilsUIProgressView.swift; sourceTree = "<group>"; };
+		5117B5EB235950EE00DBDEDE /* LQUIUtils+UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIControl.swift"; sourceTree = "<group>"; };
+		5117B5EC235950EE00DBDEDE /* LQUIUtils+UISwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UISwitch.swift"; sourceTree = "<group>"; };
+		5117B5ED235950EE00DBDEDE /* LQUIUtils+UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UICollectionView.swift"; sourceTree = "<group>"; };
+		5117B5EE235950EE00DBDEDE /* LQUIUtils+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIButton.swift"; sourceTree = "<group>"; };
+		5117B5EF235950EE00DBDEDE /* LQUIUtils+UITabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UITabBarItem.swift"; sourceTree = "<group>"; };
+		5117B5F0235950EE00DBDEDE /* LQUIUtilsUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQUIUtilsUIImageView.swift; sourceTree = "<group>"; };
+		5117B5F1235950EE00DBDEDE /* LQUIUtils+UILongPressGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UILongPressGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B5F2235950EE00DBDEDE /* LQUIUtils+UIPinchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LQUIUtils+UIPinchGestureRecognizer.swift"; sourceTree = "<group>"; };
+		5117B611235950F700DBDEDE /* LQUIUtilsNameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LQUIUtilsNameSpace.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5117B59F2359504600DBDEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5117B5B52359504700DBDEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5117B5C02359504700DBDEDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5117B5992359504600DBDEDE = {
+			isa = PBXGroup;
+			children = (
+				5117B5A42359504600DBDEDE /* LQUIUtils */,
+				5117B5BB2359504700DBDEDE /* LQUIUtilsTests */,
+				5117B5C62359504700DBDEDE /* LQUIUtilsUITests */,
+				5117B5A32359504600DBDEDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5117B5A32359504600DBDEDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5117B5A22359504600DBDEDE /* LQUIUtils.app */,
+				5117B5B82359504700DBDEDE /* LQUIUtilsTests.xctest */,
+				5117B5C32359504700DBDEDE /* LQUIUtilsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5117B5A42359504600DBDEDE /* LQUIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5117B5D5235950EE00DBDEDE /* UIUtils */,
+				5117B5A52359504600DBDEDE /* AppDelegate.swift */,
+				5117B5A72359504600DBDEDE /* SceneDelegate.swift */,
+				5117B5A92359504600DBDEDE /* ViewController.swift */,
+				5117B5AB2359504600DBDEDE /* Main.storyboard */,
+				5117B5AE2359504700DBDEDE /* Assets.xcassets */,
+				5117B5B02359504700DBDEDE /* LaunchScreen.storyboard */,
+				5117B5B32359504700DBDEDE /* Info.plist */,
+			);
+			path = LQUIUtils;
+			sourceTree = "<group>";
+		};
+		5117B5BB2359504700DBDEDE /* LQUIUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5117B5BC2359504700DBDEDE /* LQUIUtilsTests.swift */,
+				5117B5BE2359504700DBDEDE /* Info.plist */,
+			);
+			path = LQUIUtilsTests;
+			sourceTree = "<group>";
+		};
+		5117B5C62359504700DBDEDE /* LQUIUtilsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5117B5C72359504700DBDEDE /* LQUIUtilsUITests.swift */,
+				5117B5C92359504700DBDEDE /* Info.plist */,
+			);
+			path = LQUIUtilsUITests;
+			sourceTree = "<group>";
+		};
+		5117B5D5235950EE00DBDEDE /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5117B611235950F700DBDEDE /* LQUIUtilsNameSpace.swift */,
+				5117B5D6235950EE00DBDEDE /* LQUIUtils+WKWebView.swift */,
+				5117B5D7235950EE00DBDEDE /* LQUIUtils+UIPanGestureRecognizer.swift */,
+				5117B5D8235950EE00DBDEDE /* LQUIUtils+UITabBar.swift */,
+				5117B5D9235950EE00DBDEDE /* LQUIUtilsUIView.swift */,
+				5117B5DA235950EE00DBDEDE /* LQUIUtils+UIWebView.swift */,
+				5117B5DB235950EE00DBDEDE /* LQUIUtils+UIStackView.swift */,
+				5117B5DC235950EE00DBDEDE /* LQUIUtils+UISwipeGestureRecognizer.swift */,
+				5117B5DD235950EE00DBDEDE /* LQUIUtils+UICollectionViewLayout.swift */,
+				5117B5DE235950EE00DBDEDE /* LQUIUtils+UITextView.swift */,
+				5117B5DF235950EE00DBDEDE /* LQUIUtils+UIBarItem.swift */,
+				5117B5E0235950EE00DBDEDE /* LQUIUtils+UISearchBar.swift */,
+				5117B5E1235950EE00DBDEDE /* LQUIUtils+UIScrollView.swift */,
+				5117B5E2235950EE00DBDEDE /* LQUIUtils+UILabel.swift */,
+				5117B5E3235950EE00DBDEDE /* LQUIUtils+UITableView.swift */,
+				5117B5E4235950EE00DBDEDE /* LQUIUtils+UITextField.swift */,
+				5117B5E5235950EE00DBDEDE /* LQUIUtils+UIRotationGestureRecognizer.swift */,
+				5117B5E6235950EE00DBDEDE /* LQUIUtils+UISlider.swift */,
+				5117B5E7235950EE00DBDEDE /* LQUIUtils+UIGestureRecognizer.swift */,
+				5117B5E8235950EE00DBDEDE /* LQUIUtils+UITapGestureRecognizer.swift */,
+				5117B5E9235950EE00DBDEDE /* LQUIUtils+WKWebViewConfiguration.swift */,
+				5117B5EA235950EE00DBDEDE /* LQUIUtilsUIProgressView.swift */,
+				5117B5EB235950EE00DBDEDE /* LQUIUtils+UIControl.swift */,
+				5117B5EC235950EE00DBDEDE /* LQUIUtils+UISwitch.swift */,
+				5117B5ED235950EE00DBDEDE /* LQUIUtils+UICollectionView.swift */,
+				5117B5EE235950EE00DBDEDE /* LQUIUtils+UIButton.swift */,
+				5117B5EF235950EE00DBDEDE /* LQUIUtils+UITabBarItem.swift */,
+				5117B5F0235950EE00DBDEDE /* LQUIUtilsUIImageView.swift */,
+				5117B5F1235950EE00DBDEDE /* LQUIUtils+UILongPressGestureRecognizer.swift */,
+				5117B5F2235950EE00DBDEDE /* LQUIUtils+UIPinchGestureRecognizer.swift */,
+			);
+			path = UIUtils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5117B5A12359504600DBDEDE /* LQUIUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5117B5CC2359504700DBDEDE /* Build configuration list for PBXNativeTarget "LQUIUtils" */;
+			buildPhases = (
+				5117B59E2359504600DBDEDE /* Sources */,
+				5117B59F2359504600DBDEDE /* Frameworks */,
+				5117B5A02359504600DBDEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQUIUtils;
+			productName = LQUIUtils;
+			productReference = 5117B5A22359504600DBDEDE /* LQUIUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5117B5B72359504700DBDEDE /* LQUIUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5117B5CF2359504700DBDEDE /* Build configuration list for PBXNativeTarget "LQUIUtilsTests" */;
+			buildPhases = (
+				5117B5B42359504700DBDEDE /* Sources */,
+				5117B5B52359504700DBDEDE /* Frameworks */,
+				5117B5B62359504700DBDEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5117B5BA2359504700DBDEDE /* PBXTargetDependency */,
+			);
+			name = LQUIUtilsTests;
+			productName = LQUIUtilsTests;
+			productReference = 5117B5B82359504700DBDEDE /* LQUIUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5117B5C22359504700DBDEDE /* LQUIUtilsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5117B5D22359504700DBDEDE /* Build configuration list for PBXNativeTarget "LQUIUtilsUITests" */;
+			buildPhases = (
+				5117B5BF2359504700DBDEDE /* Sources */,
+				5117B5C02359504700DBDEDE /* Frameworks */,
+				5117B5C12359504700DBDEDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5117B5C52359504700DBDEDE /* PBXTargetDependency */,
+			);
+			name = LQUIUtilsUITests;
+			productName = LQUIUtilsUITests;
+			productReference = 5117B5C32359504700DBDEDE /* LQUIUtilsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5117B59A2359504600DBDEDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = williamoneilchina;
+				TargetAttributes = {
+					5117B5A12359504600DBDEDE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					5117B5B72359504700DBDEDE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5117B5A12359504600DBDEDE;
+					};
+					5117B5C22359504700DBDEDE = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5117B5A12359504600DBDEDE;
+					};
+				};
+			};
+			buildConfigurationList = 5117B59D2359504600DBDEDE /* Build configuration list for PBXProject "LQUIUtils" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5117B5992359504600DBDEDE;
+			productRefGroup = 5117B5A32359504600DBDEDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5117B5A12359504600DBDEDE /* LQUIUtils */,
+				5117B5B72359504700DBDEDE /* LQUIUtilsTests */,
+				5117B5C22359504700DBDEDE /* LQUIUtilsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5117B5A02359504600DBDEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5117B5B22359504700DBDEDE /* LaunchScreen.storyboard in Resources */,
+				5117B5AF2359504700DBDEDE /* Assets.xcassets in Resources */,
+				5117B5AD2359504600DBDEDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5117B5B62359504700DBDEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5117B5C12359504700DBDEDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5117B59E2359504600DBDEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5117B5FA235950EE00DBDEDE /* LQUIUtils+UICollectionViewLayout.swift in Sources */,
+				5117B605235950EE00DBDEDE /* LQUIUtils+UITapGestureRecognizer.swift in Sources */,
+				5117B5AA2359504600DBDEDE /* ViewController.swift in Sources */,
+				5117B607235950EE00DBDEDE /* LQUIUtilsUIProgressView.swift in Sources */,
+				5117B606235950EE00DBDEDE /* LQUIUtils+WKWebViewConfiguration.swift in Sources */,
+				5117B5FC235950EE00DBDEDE /* LQUIUtils+UIBarItem.swift in Sources */,
+				5117B60F235950EE00DBDEDE /* LQUIUtils+UIPinchGestureRecognizer.swift in Sources */,
+				5117B60D235950EE00DBDEDE /* LQUIUtilsUIImageView.swift in Sources */,
+				5117B602235950EE00DBDEDE /* LQUIUtils+UIRotationGestureRecognizer.swift in Sources */,
+				5117B603235950EE00DBDEDE /* LQUIUtils+UISlider.swift in Sources */,
+				5117B5A62359504600DBDEDE /* AppDelegate.swift in Sources */,
+				5117B608235950EE00DBDEDE /* LQUIUtils+UIControl.swift in Sources */,
+				5117B5F4235950EE00DBDEDE /* LQUIUtils+UIPanGestureRecognizer.swift in Sources */,
+				5117B5F6235950EE00DBDEDE /* LQUIUtilsUIView.swift in Sources */,
+				5117B5F9235950EE00DBDEDE /* LQUIUtils+UISwipeGestureRecognizer.swift in Sources */,
+				5117B60B235950EE00DBDEDE /* LQUIUtils+UIButton.swift in Sources */,
+				5117B5F5235950EE00DBDEDE /* LQUIUtils+UITabBar.swift in Sources */,
+				5117B60A235950EE00DBDEDE /* LQUIUtils+UICollectionView.swift in Sources */,
+				5117B5A82359504600DBDEDE /* SceneDelegate.swift in Sources */,
+				5117B5FD235950EE00DBDEDE /* LQUIUtils+UISearchBar.swift in Sources */,
+				5117B5F3235950EE00DBDEDE /* LQUIUtils+WKWebView.swift in Sources */,
+				5117B5FE235950EE00DBDEDE /* LQUIUtils+UIScrollView.swift in Sources */,
+				5117B612235950F700DBDEDE /* LQUIUtilsNameSpace.swift in Sources */,
+				5117B5FF235950EE00DBDEDE /* LQUIUtils+UILabel.swift in Sources */,
+				5117B5F7235950EE00DBDEDE /* LQUIUtils+UIWebView.swift in Sources */,
+				5117B5F8235950EE00DBDEDE /* LQUIUtils+UIStackView.swift in Sources */,
+				5117B5FB235950EE00DBDEDE /* LQUIUtils+UITextView.swift in Sources */,
+				5117B60E235950EE00DBDEDE /* LQUIUtils+UILongPressGestureRecognizer.swift in Sources */,
+				5117B600235950EE00DBDEDE /* LQUIUtils+UITableView.swift in Sources */,
+				5117B604235950EE00DBDEDE /* LQUIUtils+UIGestureRecognizer.swift in Sources */,
+				5117B601235950EE00DBDEDE /* LQUIUtils+UITextField.swift in Sources */,
+				5117B609235950EE00DBDEDE /* LQUIUtils+UISwitch.swift in Sources */,
+				5117B60C235950EE00DBDEDE /* LQUIUtils+UITabBarItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5117B5B42359504700DBDEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5117B5BD2359504700DBDEDE /* LQUIUtilsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5117B5BF2359504700DBDEDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5117B5C82359504700DBDEDE /* LQUIUtilsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5117B5BA2359504700DBDEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5117B5A12359504600DBDEDE /* LQUIUtils */;
+			targetProxy = 5117B5B92359504700DBDEDE /* PBXContainerItemProxy */;
+		};
+		5117B5C52359504700DBDEDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5117B5A12359504600DBDEDE /* LQUIUtils */;
+			targetProxy = 5117B5C42359504700DBDEDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5117B5AB2359504600DBDEDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5117B5AC2359504600DBDEDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5117B5B02359504700DBDEDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5117B5B12359504700DBDEDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5117B5CA2359504700DBDEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5117B5CB2359504700DBDEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5117B5CD2359504700DBDEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUIUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = williamoneichina.LQUIUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5117B5CE2359504700DBDEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUIUtils/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = williamoneichina.LQUIUtils;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5117B5D02359504700DBDEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUIUtilsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = williamoneichina.LQUIUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQUIUtils.app/LQUIUtils";
+			};
+			name = Debug;
+		};
+		5117B5D12359504700DBDEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUIUtilsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = williamoneichina.LQUIUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LQUIUtils.app/LQUIUtils";
+			};
+			name = Release;
+		};
+		5117B5D32359504700DBDEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUIUtilsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = williamoneichina.LQUIUtilsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQUIUtils;
+			};
+			name = Debug;
+		};
+		5117B5D42359504700DBDEDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LQUIUtilsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = williamoneichina.LQUIUtilsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LQUIUtils;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5117B59D2359504600DBDEDE /* Build configuration list for PBXProject "LQUIUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5117B5CA2359504700DBDEDE /* Debug */,
+				5117B5CB2359504700DBDEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5117B5CC2359504700DBDEDE /* Build configuration list for PBXNativeTarget "LQUIUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5117B5CD2359504700DBDEDE /* Debug */,
+				5117B5CE2359504700DBDEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5117B5CF2359504700DBDEDE /* Build configuration list for PBXNativeTarget "LQUIUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5117B5D02359504700DBDEDE /* Debug */,
+				5117B5D12359504700DBDEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5117B5D22359504700DBDEDE /* Build configuration list for PBXNativeTarget "LQUIUtilsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5117B5D32359504700DBDEDE /* Debug */,
+				5117B5D42359504700DBDEDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5117B59A2359504600DBDEDE /* Project object */;
+}
